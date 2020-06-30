@@ -1,7 +1,7 @@
 package main
 
 import (
-	u "gowebsocket/src/utils"
+	u "github.com/richardfordjunior/gowebsocket/src/utils"
 	"log"
 	"net/http"
 
