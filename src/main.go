@@ -60,8 +60,8 @@ func main() {
 
 	// Start the server on localhost port 8000 and log any errors
 	port := u.GetEnvVariable("PORT")
-	host := u.GetEnvVariable("HOST")
-	log.Println("🔥http server started on " + host + ":" + port)
+
+	log.Println("🔥http server started on :" + port)
 
 	err := http.ListenAndServe(":"+port, nil)
 	if err != nil {
