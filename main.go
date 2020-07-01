@@ -1,9 +1,10 @@
 package main
 
 import (
-	u "github.com/richardfordjunior/gowebsocket/src/utils"
 	"log"
 	"net/http"
+
+	u "github.com/richardfordjunior/gowebsocket/src/utils"
 
 	"github.com/gorilla/websocket"
 )
